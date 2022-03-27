@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>7DaysOfCode | Dia 2</title>
+</head>
+<body>
+    <div>
+        <section>
+            <p>Qual seu nome ?</p><input type="text" name="NomeUsuario" id="nomeUsuario">
+            <p>Em que ano você nasceu ?</p><input type="number" name="nascUsuario" id="nascUsuario" min="1920" max="2022">
+            <p>Qual linguagem você está aprendendo ?</p><input type="text" name="lingUsuario" id="lingUsuario">
+            <input type="submit" value="Enviar" onclick="mostrarMensagem()">
+            <p id="mensagem"></p>
+            <p id="perguntaFinal"></p>
+            <input type="number" name="respostaFinal" id="respostaFinal" min="1" max="2">
+            <input type="submit" value="Enviar" id="botaoFinal" onclick="perguntaFinal()">
+            <p id="mensagemFinal"></p>
+        </section>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
